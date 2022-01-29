@@ -6,5 +6,4 @@ class Task(models.Model):
     completed = models.BooleanField(default=False, blank=True, null=True)
 
     def __str__(self):
-
         return self.title
